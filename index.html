@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <aside class="sidebar">
+      <header class="brand">Jetman dashboard</header>
+      <div class="userProfile">
+        <img src="pic.jpg" class="pic"></img>
+        <div class="username">babbu maan</div>
+        <div class="userid">ID: 22228-6226</div>
+      </div>
+      <ul class="links">
+        <li></li>
+        <li class="active"><a href="#"><i class="fa fa-lg fa-user"></i>&nbsp; My account</a></li>
+        <li><a href="#"><i class="fa fa-lg fa-money"></i>&nbsp; Subscription Plans</a></li>
+        <li><a href="#"><i class="fa fa-lg fa-history"></i>&nbsp; Subscription History</a></li>
+        <li><a href="#"><i class="fa fa-lg fa-pie-chart"></i>&nbsp; Dashboard</a></li>
+        <li><a href="#"><i class="fa fa-lg fa-bar-chart-o"></i>&nbsp; Analytics</a></li>
+        <li><a href="#"><i class="fa fa-lg fa-history"></i>&nbsp; Test Run History</a></li>
+        <li></li>
+      </ul>
+      <ul class="userActions">
+        <li> <i class="fa fa-lg fa-sign-out"></i>&nbsp; Logout</li>
+        <li><i class="fa fa-lg fa-cog"></i>&nbsp; Settings</li>
+      </ul>
+
+      <footer>
+        &copy; 2020 onetesthub
+      </footer>
+    </aside>
+    <main class="content"></main>
+  </div>
+  <script>
+    document.querySelector('ul.links .active').previousElementSibling.setAttribute("style", "border-bottom-right-radius: 8px;box-shadow: 8px 0px 0px 0px #fff;");
+  </script>
+</body>
+
+</html>
